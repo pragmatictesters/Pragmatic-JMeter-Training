@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor : Set dynamic test data ">
+      <stringProp name="scriptLanguage">groovy</stringProp>
+      <stringProp name="parameters"></stringProp>
+      <stringProp name="filename"></stringProp>
+      <stringProp name="cacheKey">true</stringProp>
+      <stringProp name="script">import com.pragmatic.jmeter.JmeterUtil;
+
+JmeterUtil util = new JmeterUtil();
+
+vars.put(&quot;paymentAccountName&quot;, util.getPaymentAccountName());
+vars.put(&quot;guardianFirstName&quot;, util.getGuardianFirstName());
+vars.put(&quot;guardianLastName&quot;, util.getGuardianLastName());
+vars.put(&quot;guardianLastName&quot;, util.getGuardianLastName());
+vars.put(&quot;guardianDOB&quot;, util.getGuardianDOB());
+vars.put(&quot;guardianCRN&quot;, util.getGuardianCRN());
+vars.put(&quot;guardianCRN&quot;, util.getGuardianCRN());
+vars.put(&quot;guardianCRN&quot;, util.getGuardianCRN());
+vars.put(&quot;email&quot;, util.getEmail());
+vars.put(&quot;mobile&quot;, util.getMobile());
+
+vars.put(&quot;childFirstName&quot;, util.getChildFirstName());
+vars.put(&quot;childLastName&quot;, util.getChildLastName());
+vars.put(&quot;childDOB&quot;, util.getChildDOB());
+vars.put(&quot;familyName&quot;, util.getFamilyName());
+  </stringProp>
+    </JSR223PreProcessor>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
