@@ -6,6 +6,8 @@ const learn = [
   {to: '/docs/tips', icon: '💡', title: 'Tip of the Day', text: 'Shortcuts, CLI runs, lightweight listeners and other habits that save hours.'},
   {to: '/docs/performance-testing-types', icon: '🧭', title: 'Testing Types', text: 'Load, stress, spike, soak and the rest: what each answers and when to run it.'},
   {to: '/docs/glossary', icon: '📖', title: 'Glossary', text: 'An A to Z of performance terms, mapped to what they mean in JMeter.'},
+  {to: '/docs/cheat-sheet', icon: '📋', title: 'Cheat Sheet', text: 'CLI options, keyboard shortcuts and the properties you change most.'},
+  {to: '/docs/resources', icon: '🔗', title: 'Resources', text: 'Plugins, training videos, cloud runners, practice sites and community help.'},
 ];
 
 const reference = [

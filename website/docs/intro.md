@@ -22,6 +22,8 @@ Press `Ctrl + K` (`⌘ + K` on macOS) to search every page, including all JMeter
 | [💡 Tip of the Day](./tips.md) | Short, practical tips: shortcuts, CLI runs, lightweight listeners, test data and more. |
 | [🧭 Performance Testing Types](./performance-testing-types.md) | Load, stress, spike, soak, volume, capacity, scalability, baseline and benchmark tests, and how to pick one. |
 | [📖 Glossary](./glossary.md) | An A to Z of performance testing terms, with what each one means in JMeter. |
+| [📋 Cheat Sheet](./cheat-sheet.md) | CLI options, keyboard shortcuts, common properties and functions on one page. |
+| [🔗 Resources](./resources.md) | Plugins Manager, training videos, cloud runners, practice sites and community help. |
 
 ## 📚 Reference
 

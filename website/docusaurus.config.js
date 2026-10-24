@@ -83,6 +83,8 @@ const config = {
           {type: 'docSidebar', sidebarId: 'learn', position: 'left', label: 'Learn'},
           {type: 'docSidebar', sidebarId: 'reference', position: 'left', label: 'Reference'},
           {to: '/docs/glossary', label: 'Glossary', position: 'left'},
+          {to: '/docs/cheat-sheet', label: 'Cheat Sheet', position: 'left'},
+          {to: '/docs/resources', label: 'Resources', position: 'left'},
           {type: 'search', position: 'right'},
           {href: repo, position: 'right', className: 'header-github-link', 'aria-label': 'GitHub repository'},
         ],
@@ -96,6 +98,7 @@ const config = {
               {label: 'Tip of the Day', to: '/docs/tips'},
               {label: 'Performance Testing Types', to: '/docs/performance-testing-types'},
               {label: 'Glossary', to: '/docs/glossary'},
+              {label: 'Cheat Sheet', to: '/docs/cheat-sheet'},
             ],
           },
           {
@@ -109,6 +112,8 @@ const config = {
           {
             title: 'More',
             items: [
+              {label: 'Resources', to: '/docs/resources'},
+              {label: 'Training videos', href: 'https://www.youtube.com/playlist?list=PL3SFAeUgUKa2CzViB2z1EYW-X-1aevRaG'},
               {label: 'GitHub', href: repo},
               {label: 'Apache JMeter', href: 'https://jmeter.apache.org/'},
             ],
