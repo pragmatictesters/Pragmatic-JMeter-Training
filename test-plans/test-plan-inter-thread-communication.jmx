@@ -49,7 +49,7 @@ without actual network activity. This helps debugging tests.</stringProp>
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
-            <stringProp name="script">log.info(&quot;==&gt; MyData &quot; + myData)</stringProp>
+            <stringProp name="script">log.info(&quot;==&gt; MyData ${myData} ===&quot; )</stringProp>
             <stringProp name="scriptLanguage">groovy</stringProp>
           </JSR223PostProcessor>
           <hashTree/>
